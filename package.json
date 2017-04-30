@@ -2,15 +2,22 @@
   "name": "collada-parser",
   "version": "1.0.0",
   "description": "Collada file parser using gl-matrix",
-  "main": "index.js",
+  "main": "lib/ColladaParser.js",
   "scripts": {
     "lib": "babel src --presets=es2015 --plugins=add-module-exports --out-dir lib -s -w",
     "lint": "eslint scripts src test",
     "dev": "node ./tasks/server.js & npm run lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Yi-Wen Lin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yiwenl/collada-parser"
+  },
+  "bugs": {
+    "url": "https://github.com/yiwenl/collada-parser/issues"
+  },
   "dependencies": {
     "gl-matrix": "^2.3.2"
   },
