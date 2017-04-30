@@ -1,5 +1,5 @@
 # collada-parser
-NPM wrapper for https://github.com/jagenjo/collada.js/tree/master
+Node module wrapper for https://github.com/jagenjo/collada.js
 
 
 ## installation 
