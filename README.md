@@ -20,3 +20,11 @@ Node module wrapper for https://github.com/jagenjo/collada.js
 		//	c) material
 	});
 ```
+
+or 
+
+```
+	const meshs = ColladaParse.parse(daeFile);
+```
+
+if you have loaded the model file.
